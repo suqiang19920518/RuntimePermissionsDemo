@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_request_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="申请单个权限" />
+
+    <Button
+        android:id="@+id/btn_request_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="申请多个权限" />
+
+    <Button
+        android:id="@+id/btn_open_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开设置界面" />
+
+    <Button
+        android:id="@+id/btn_open_camera1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启摄像头1" />
+
+    <Button
+        android:id="@+id/btn_open_camera2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启摄像头2" />
+
+    <Button
+    android:id="@+id/btn_open_camera3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="开启摄像头3" />
+
+    <Button
+        android:id="@+id/btn_add_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加联系人" />
+
+</LinearLayout>
